@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThreeViewController" customModule="Douyin" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="kYu-yQ-E1r" id="gQc-l8-o38"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kYu-yQ-E1r">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="南昌大学" translatesAutoresizingMaskIntoConstraints="NO" id="huZ-WQ-BFg">
+                    <rect key="frame" x="0.0" y="132" width="393" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="u2I-f8-w0J"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v29-MV-omd">
+                    <rect key="frame" x="0.0" y="268" width="393" height="211"/>
+                    <mutableString key="text">南昌大学（Nanchang University）是国家“双一流”建设高校 [44]、国家“211工程”重点建设高校、国家“中西部高校综合实力提升计划”和“中西部高校基础能力建设工程”入选高校、教育部与江西省人民政府部省合建高校、江西省一流大学整体建设高校 [62]，是全国首批深化创新创业教育改革示范高校、教育部中国教育和科研计算机网（CERNET）江西主节点单位，是中国教育交流协会常务理事单位、教育部来华留学示范基地、教育部留学服务中心出国留学培训基地、全国汉语水平HSK网考先进考点。 [3]
+学校前身江西医学院、江西大学和江西工业大学分别溯源于1921年创建的江西公立医学专门学校、1940年创建的国立中正大学和1958年创建的江西工学院。1993年江西省委、省人民政府决定将江西大学与江西工业大学合并组建南昌大学；2005年南昌大学与原江西医学院合并组建新的南昌大学</mutableString>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Uuv-Eh-LZB"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="v29-MV-omd" firstAttribute="top" secondItem="huZ-WQ-BFg" secondAttribute="bottom" constant="8" symbolic="YES" id="11f-4g-A9x"/>
+                <constraint firstAttribute="trailing" secondItem="huZ-WQ-BFg" secondAttribute="trailing" id="N2O-XA-xx7"/>
+                <constraint firstItem="huZ-WQ-BFg" firstAttribute="top" secondItem="Uuv-Eh-LZB" secondAttribute="top" constant="73" id="NeJ-5M-uZg"/>
+                <constraint firstItem="Uuv-Eh-LZB" firstAttribute="bottom" secondItem="v29-MV-omd" secondAttribute="bottom" constant="339" id="YB3-vC-m80"/>
+                <constraint firstItem="huZ-WQ-BFg" firstAttribute="trailing" secondItem="v29-MV-omd" secondAttribute="trailing" id="gz4-R3-wO9"/>
+                <constraint firstItem="huZ-WQ-BFg" firstAttribute="leading" secondItem="v29-MV-omd" secondAttribute="leading" id="rNX-0u-ace"/>
+                <constraint firstItem="huZ-WQ-BFg" firstAttribute="leading" secondItem="kYu-yQ-E1r" secondAttribute="leading" id="x2v-rp-Yq9"/>
+            </constraints>
+            <point key="canvasLocation" x="730.53435114503816" y="42.95774647887324"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="南昌大学" width="1196" height="672"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
